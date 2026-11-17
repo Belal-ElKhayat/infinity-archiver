@@ -1,0 +1,47 @@
+[package]
+name = "infinity-archiver"
+version = "1.0.0"
+edition = "2021"
+description = "Infinity Archiver - Next-Gen Rust File Archiver combining 7-Zip, WinRAR, Bandizip, PeaZip & PowerArchiver"
+license = "MIT"
+
+[dependencies]
+# Native Cross-Platform Immediate-Mode GUI with Dark/Mica aesthetics
+eframe = "0.29"
+egui = "0.29"
+rfd = "0.15"
+
+# Core Compression & Archive Formats
+zip = { version = "2.2", features = ["zstd", "lzma", "aes-crypto", "deflate"] }
+zstd = "0.13"
+sevenz-rust = "0.6"
+tar = "0.4"
+flate2 = "1.0"
+
+# Concurrency, Hashing & Recovery
+rayon = "1.10"
+sha2 = "0.10"
+crc32fast = "1.4"
+reed-solomon-erasure = "6.0"
+
+# Smart QoL & Security
+walkdir = "2.5"
+ignore = "0.4"
+encoding_rs = "0.8"
+aes-gcm = "0.10"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+anyhow = "1.0"
+clap = { version = "4.5", features = ["derive"] }
+
+[build-dependencies]
+winres = "0.1"
+image = "0.25"
+
+[target.'cfg(windows)'.dependencies]
+windows = { version = "0.58", features = [
+    "Win32_Foundation",
+    "Win32_Storage_FileSystem",
+    "Win32_System_IO",
+    "Win32_System_Ioctl",
+] }
