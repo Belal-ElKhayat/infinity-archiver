@@ -1,5 +1,5 @@
 <div align="center">
- <img src="assets/icon.png" alt="Infinity Archiver Logo" width="240" />
+ <img src="assets/icon.png" alt="Infinity Archiver Logo" width="344" />
   <h1>⚡ Infinity Archiver</h1>
   <p><strong>A next-generation, native Rust file archiver merging the compression power of 7-Zip, the recovery resilience of WinRAR, and modern storage intelligence.</strong></p>
 
