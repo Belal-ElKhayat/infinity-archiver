@@ -1,5 +1,5 @@
 <div align="center">
- <img src="assets/icon.png" alt="Infinity Archiver Logo" width="344" />
+ <img src="assets/icon.png" alt="Infinity Archiver Logo" width="400" />
   <h1>⚡ Infinity Archiver</h1>
   <p><strong>A next-generation, native Rust file archiver merging the compression power of 7-Zip, the recovery resilience of WinRAR, and modern storage intelligence.</strong></p>
 
@@ -50,3 +50,6 @@ infinity-archiver extract "LargeBackup.zip" --out "./Extracted" --in-place
 
 # Pack a project folder with Smart Auto-AI compression, .gitignore filtering, and Reed-Solomon parity
 infinity-archiver pack "ProjectRelease.zip" "./MyProject" --gitignore --recovery
+
+ ---
+ # Vibe coded
