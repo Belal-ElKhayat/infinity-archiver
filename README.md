@@ -40,6 +40,11 @@ Download the latest standalone executable (no runtime or installation required) 
 
 ---
 
+# Vibe Coded 
+I learnt a lot about rust from this repo
+Using Gemini
+
+---
 ## 💻 CLI Usage
 
 Infinity Archiver works both as a native GPU-accelerated desktop app and a headless CLI tool:
@@ -51,5 +56,3 @@ infinity-archiver extract "LargeBackup.zip" --out "./Extracted" --in-place
 # Pack a project folder with Smart Auto-AI compression, .gitignore filtering, and Reed-Solomon parity
 infinity-archiver pack "ProjectRelease.zip" "./MyProject" --gitignore --recovery
 
- ---
- # Vibe coded
