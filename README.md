@@ -16,6 +16,11 @@
 ## 🔥 Why Infinity Archiver?
 
 Traditional archivers require **2× the archive size** in free disk space just to unpack a large file and waste CPU cycles trying to compress already-compressed videos and images. **Infinity Archiver** solves both at the systems level in pure Rust.
+### Vibe Coded 
+I learnt a lot about rust from this repo
+Using Gemini
+
+---
 
 ### ✨ Standout Capabilities
 
@@ -40,11 +45,6 @@ Download the latest standalone executable (no runtime or installation required) 
 
 ---
 
-# Vibe Coded 
-I learnt a lot about rust from this repo
-Using Gemini
-
----
 ## 💻 CLI Usage
 
 Infinity Archiver works both as a native GPU-accelerated desktop app and a headless CLI tool:
